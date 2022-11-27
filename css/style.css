@@ -25,28 +25,34 @@ a {
 }
 
 .header__content {
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
     width: 1200px;
-    margin: auto;
 }
 
 .logo {
-    margin: 7px 0;
+    display: inline-block;
+}
+
+.img__logo {
+    margin-right: 2px;
 }
 
 .header__nav {
-    margin: 0 auto;
+    display: inline;
+    margin: 0 198px;
 }
 
 .nav__list {
-    display: flex;
+    display: inline;
     width: 352px;
-    margin: 9px auto;
+}
+
+.list__item {
+    display: inline;
 }
 
 .list__item:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 14px;
 }
 
 .nav__link {
@@ -66,12 +72,13 @@ a {
 }
 
 .header__button {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+    text-align: left;
     width: 252px;
 }
 
-.header__btn {
+.header__btn,
+.header__btn__up {
     background: #FF9900;
     color: #FFFFFF;
     width: 110px;
@@ -81,7 +88,12 @@ a {
     line-height: 20px;
 }
 
+.header__btn__up {
+    margin-left: 25px;
+}
+
 .header__btn:hover,
+.header__btn__up:hover,
 .screen__button:hover {
     border: 1px solid #7a756d;
     background: #FFFFFF;
