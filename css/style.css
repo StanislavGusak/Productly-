@@ -1,11 +1,12 @@
 body {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     color: #544837;
+    margin: auto;
     width: 1440px;
     box-sizing: border-box;
 }
